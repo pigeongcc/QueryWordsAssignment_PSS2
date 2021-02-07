@@ -1,0 +1,35 @@
+auto is used when initializing iterators for reducing the code volume
+________________________________________________________________________
+INPUT:
+Sentences separated by dots
+Number of words
+Words
+
+OUTPUT:
+for each given word:
+	number of sentences where it is
+	Sentences with the UPPERCASE word
+
+EFFECTIVE CODE
+README.MD file
+_________________________________________________________________________________
+
+PGM:
+1) Read the text from file
+	- read from in.txt (3+ lines):
+		textLine [String] - wordsNumber [int] - queryWord(s) [String arr]
+
+
+2) Function that breaks the text into sentences
+	- args: String textLine
+	- returns: vector<String> sentences
+
+3) Function that returns all sentences that contain the given word(s)
+   and make the word UPPERCASE in sentences
+	- arguments: vector<String> sentences
+	- returns: vector<String>[wordsNumber] wordsMatches
+
+4) Write the result to the file
+	- write to out.txt
+	
+________________________________________________________________________

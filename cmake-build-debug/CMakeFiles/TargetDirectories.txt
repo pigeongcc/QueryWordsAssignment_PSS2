@@ -1,0 +1,3 @@
+C:/Users/gulya/Desktop/PSS/TextHW/cmake-build-debug/CMakeFiles/TextHW.dir
+C:/Users/gulya/Desktop/PSS/TextHW/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gulya/Desktop/PSS/TextHW/cmake-build-debug/CMakeFiles/rebuild_cache.dir
